@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 
 html {
   font-size: 62.5%;
   background: #000;
   color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
 
 img {
   max-width: 100%;
-  display: block;
+  display: inline-block;
 }
 
 li {

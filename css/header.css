@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 4.4rem 2.5rem 4.4rem;
+}
+
+.header .menu {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.header .menu a {
+  border-radius: 0.9109rem;
+  background: #262626;
+  width: 5.3rem;
+  height: 5.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .getapp {
+  display: flex;
+  gap: 50px;
+}
+
+.header .getapp p {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #ffffff6b;
+}
+
+.header .getapp .playstore {
+  display: flex;
+  border-radius: 0.9109rem;
+  background: #ffc8d0;
+  width: 99px;
+  height: 53px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.header .getapp .playstore::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.1);
+}

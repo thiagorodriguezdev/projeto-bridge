@@ -1,56 +1,108 @@
 @import url(reset.css);
 @import url(grid.css);
+@import url(header.css);
 
-.header {
+.titulo-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.4rem;
+}
+
+.section-texto {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 2.5rem 4.4rem 2.5rem 4.4rem;
+  padding: 7.2rem 4.4rem 8.9rem 4.4rem;
 }
 
-.header .menu {
+.texto-section .texto1 {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2.3684rem;
+  letter-spacing: 0.0437rem;
+}
+
+.texto-section .texto2 {
+  color: #be838c;
+  font-size: 1.6rem;
+  line-height: 2.3684rem;
+  letter-spacing: 0.0437rem;
+}
+
+.section-texto .star {
   display: flex;
-  gap: 1.4rem;
+  gap: 2rem;
 }
 
-.header .menu a {
+.section-texto .star div {
   border-radius: 0.9109rem;
-  background: #262626;
-  width: 5.3rem;
-  height: 5.3rem;
+  border: 0.2rem solid #262626;
+  background: #000;
+  width: 16.2rem;
+  height: 7.2rem;
   display: flex;
+  justify-content: center;
   align-items: center;
+
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.4575rem;
+  letter-spacing: 0.0437rem;
+}
+
+.logo-bridge {
+  width: 1280px;
+  height: 409px;
+  background: #fff;
+  display: flex;
   justify-content: center;
 }
 
-.header .getapp {
-  display: flex;
-  gap: 50px;
+.logo-bridge .bridge {
+  max-width: 117.9rem;
 }
 
-.header .getapp p {
-  display: flex;
-  align-items: center;
-  font-size: 1.4rem;
-  color: #ffffff6b;
+.next-day {
+  background: #000;
+  height: 10018px;
+  font-size: 40px;
+  margin: 128px 0 178px 0;
+  text-align: center;
+  word-spacing: 6px;
 }
 
-.header .getapp .playstore {
-  display: flex;
-  border-radius: 0.9109rem;
-  background: #ffc8d0;
-  width: 99px;
-  height: 53px;
-  align-items: center;
-  justify-content: space-around;
+.next-day .linha-top {
+  width: 1193px;
+  height: 1px;
+  background: #262626;
+  margin: 0 auto;
   position: relative;
+  top: -80px;
 }
 
-.header .getapp .playstore::before {
+.next-day .rosa {
+  color: #be7f8f;
+  font-family: Roboto;
+  font-size: 4rem;
+  line-height: 4.008rem;
+  letter-spacing: 0.1822rem;
+}
+
+.next-day .linha-bottom {
+  width: 1193px;
+  height: 1px;
+  background: #262626;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+}
+
+.next-day .linha-bottom::before {
   content: "";
-  display: block;
+  width: 100%;
+  max-width: 32.1rem;
+  height: 32.1rem;
+  background: url("../img/dourado.png") no-repeat center center;
   position: absolute;
-  width: 1px;
-  height: 45px;
-  background: rgba(0, 0, 0, 0.1);
+  top: -150px;
+  right: 65px;
 }
