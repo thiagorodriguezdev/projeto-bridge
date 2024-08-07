@@ -50,8 +50,8 @@
 }
 
 .logo-bridge {
-  width: 1280px;
-  height: 409px;
+  width: 128rem;
+  height: 40.9rem;
   background: #fff;
   display: flex;
   justify-content: center;
@@ -63,20 +63,20 @@
 
 .next-day {
   background: #000;
-  height: 10018px;
-  font-size: 40px;
+  height: 100.5rem;
+  font-size: 4rem;
   margin: 128px 0 178px 0;
   text-align: center;
-  word-spacing: 6px;
+  word-spacing: 0.6rem;
 }
 
 .next-day .linha-top {
-  width: 1193px;
-  height: 1px;
+  width: 119.3rem;
+  height: 0.1rem;
   background: #262626;
   margin: 0 auto;
   position: relative;
-  top: -80px;
+  top: -8rem;
 }
 
 .next-day .rosa {
@@ -88,12 +88,12 @@
 }
 
 .next-day .linha-bottom {
-  width: 1193px;
-  height: 1px;
+  width: 119.3rem;
+  height: 0.1rem;
   background: #262626;
   margin: 0 auto;
   position: relative;
-  top: 80px;
+  top: 8rem;
 }
 
 .next-day .linha-bottom::before {
@@ -103,8 +103,8 @@
   height: 32.1rem;
   background: url("../img/dourado.png") no-repeat center center;
   position: absolute;
-  top: -150px;
-  right: 65px;
+  top: -15rem;
+  right: 6.5rem;
 }
 
 .next-day .titulo-grande {
@@ -113,6 +113,8 @@
   line-height: 15.0301rem;
   letter-spacing: 0.9109rem;
   margin-top: 17.8rem;
+  position: absolute;
+  z-index: 2;
 }
 
 .next-day .titulo-grande .rosa-grande {
@@ -127,7 +129,24 @@
   height: 32.1rem;
   background: url("../img/dourado.png") no-repeat center center;
   position: absolute;
-  top: 190px;
-  left: -120px;
-  z-index: 5;
+  top: 18rem;
+  left: -12rem;
+  z-index: -1;
+}
+
+.texto-card p {
+  color: #ffffff73;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 2.9149rem;
+  letter-spacing: 0.0729rem;
+}
+
+.texto-card h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 14.6rem;
+  line-height: 14.5746rem; 
+  letter-spacing: .9109rem;
+  margin-top: 20rem;
 }
