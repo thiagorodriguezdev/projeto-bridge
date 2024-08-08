@@ -41,7 +41,14 @@
   align-items: center;
   justify-content: space-around;
   position: relative;
-  cursor: pointer;
+}
+
+.apple {
+  padding: 15px;
+}
+
+.store {
+  padding: 15px;
 }
 
 .header .getapp .playstore::before {
