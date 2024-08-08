@@ -5,114 +5,114 @@
 .titulo-section {
   display: flex;
   justify-content: center;
-  margin-top: 7.4rem;
+  margin-top: 74px;
 }
 
 .section-texto {
   display: flex;
   justify-content: space-between;
-  padding: 7.2rem 4.4rem 8.9rem 4.4rem;
+  padding: 72px 44px 89px 44px;
 }
 
 .texto-section .texto1 {
   color: #fff;
-  font-size: 1.6rem;
-  line-height: 2.3684rem;
-  letter-spacing: 0.0437rem;
+  font-size: 16px;
+  line-height: 23.684px;
+  letter-spacing: .437px;
 }
 
 .texto-section .texto2 {
   color: #be838c;
-  font-size: 1.6rem;
-  line-height: 2.3684rem;
-  letter-spacing: 0.0437rem;
+  font-size: 16px;
+  line-height: 23.684px;
+  letter-spacing: .437px;
 }
 
 .section-texto .star {
   display: flex;
-  gap: 2rem;
+  gap: 20px;
 }
 
 .section-texto .star div {
-  border-radius: 0.9109rem;
-  border: 0.2rem solid #262626;
+  border-radius: 9.109px;
+  border: 2px solid #262626;
   background: #000;
-  width: 16.2rem;
-  height: 7.2rem;
+  width: 162px;
+  height: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   color: #fff;
-  font-size: 1.5rem;
-  line-height: 1.4575rem;
-  letter-spacing: 0.0437rem;
+  font-size: 15px;
+  line-height: 14.575px;
+  letter-spacing: .437px;
 }
 
 .logo-bridge {
-  width: 128rem;
-  height: 40.9rem;
+  width: 1280px;
+  height: 409px;
   background: #fff;
   display: flex;
   justify-content: center;
 }
 
 .logo-bridge .bridge {
-  max-width: 117.9rem;
+  max-width: 1179px;
 }
 
 .next-day {
   background: #000;
-  height: 100.5rem;
-  font-size: 4rem;
-  margin: 128px 0 178px 0;
+  height: 1005px;
+  font-size: 40px;
+  margin: 12.8rem 0 17.8rem 0;
   text-align: center;
-  word-spacing: 0.6rem;
+  word-spacing: 6px;
 }
 
 .next-day .linha-top {
-  width: 119.3rem;
-  height: 0.1rem;
+  width: 1193px;
+  height: 1px;
   background: #262626;
   margin: 0 auto;
   position: relative;
-  top: -8rem;
+  top: -80px;
 }
 
 .next-day .rosa {
   color: #be7f8f;
   font-family: Roboto;
-  font-size: 4rem;
-  line-height: 4.008rem;
-  letter-spacing: 0.1822rem;
+  font-size: 40px;
+  line-height: 40.08px;
+  letter-spacing: 1.822px;
 }
 
 .next-day .linha-bottom {
-  width: 119.3rem;
-  height: 0.1rem;
+  width: 1193px;
+  height: 1px;
   background: #262626;
   margin: 0 auto;
   position: relative;
-  top: 8rem;
+  top: 80px;
 }
 
 .next-day .linha-bottom::before {
   content: "";
   width: 100%;
-  max-width: 32.1rem;
-  height: 32.1rem;
+  max-width: 321px;
+  height: 321px;
   background: url("../img/dourado.png") no-repeat center center;
   position: absolute;
-  top: -15rem;
-  right: 6.5rem;
+  top: -150px;
+  right: 65px;
 }
 
 .next-day .titulo-grande {
   color: #fff;
-  font-size: 16.4rem;
-  line-height: 15.0301rem;
-  letter-spacing: 0.9109rem;
-  margin-top: 17.8rem;
+  font-size: 164px;
+  line-height: 150.301px;
+  letter-spacing: 9.109px;
+  margin-top: 178px;
   position: absolute;
   z-index: 2;
 }
@@ -125,28 +125,114 @@
 .next-day .titulo-grande .rosa-grande::before {
   content: "";
   width: 100%;
-  max-width: 32.1rem;
-  height: 32.1rem;
+  max-width: 321px;
+  height: 321px;
   background: url("../img/dourado.png") no-repeat center center;
   position: absolute;
-  top: 18rem;
-  left: -12rem;
+  top: 180px;
+  left: -120px;
   z-index: -1;
+}
+
+.texto-card {
+  margin-bottom: 175px;
 }
 
 .texto-card p {
   color: #ffffff73;
   text-align: center;
-  font-size: 2.2rem;
-  line-height: 2.9149rem;
-  letter-spacing: 0.0729rem;
+  font-size: 22px;
+  line-height: 29.149px;
+  letter-spacing: .729px;
 }
 
 .texto-card h1 {
   color: #fff;
   text-align: center;
-  font-size: 14.6rem;
-  line-height: 14.5746rem; 
-  letter-spacing: .9109rem;
-  margin-top: 20rem;
+  font-size: 146px;
+  line-height: 145.746px;
+  letter-spacing: 9.109px;
+  margin-top: 200px;
 }
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 225px;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-text .step {
+  display: inline-block;
+  border-radius: 14.5746rem;
+  background: #262626;
+  padding: 1.6rem 4rem;
+  text-align: center;
+  margin-bottom: 2.3rem;
+  font-size: 1.5rem;
+  line-height: 2.1862rem;
+  letter-spacing: .0437rem;
+}
+
+.card-text .titulo-card {
+  text-align: center;
+  font-size: 8.2rem;
+  line-height: 8.1982rem;
+  letter-spacing: .4555rem;
+  margin-bottom: 6rem;
+}
+
+.card-text p {
+  color: #ffffff69;
+  font-size: 16px;
+  line-height: 23.684px; 
+  letter-spacing: .437px;
+}
+
+.fundo-rosa {
+  border-radius: 2rem;
+  background: url(<path-to-image>) #FFC8D0 50% / contain no-repeat;
+}
+
+/* .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 175px;
+}
+
+.cards-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text .step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 136px;
+  height: 54px;
+  border-radius: 14.5746rem;
+  background: #262626;
+  color: #fff;
+  font-size: 15px;
+  line-height: 21.862px;
+  letter-spacing: .437px;
+}
+
+.card-text .titulo-card {
+  color: #fff;
+  text-align: center;
+  font-size: 82px;
+  line-height: 81.982px;
+  letter-spacing: 4.555px;
+}
+
+.cards .fundo-rosa {
+
+} */
