@@ -164,12 +164,19 @@
 }
 
 .card-text,
-.card-text2 {
+.card-text2,
+.card-text3 {
   text-align: center;
 }
 
+.card-text2 {
+  position: relative;
+  left: -60px;
+}
+
 .card-text .step,
-.step2 {
+.step2,
+.step3 {
   display: inline-block;
   border-radius: 14.5746rem;
   background: #262626;
@@ -182,7 +189,8 @@
 }
 
 .card-text .titulo-card,
-.titulo-card2 {
+.titulo-card2,
+.titulo-card3 {
   text-align: center;
   font-size: 8.2rem;
   line-height: 8.1982rem;
@@ -191,17 +199,18 @@
 }
 
 .card-text .paragrafo,
-.paragrafo2 {
+.paragrafo2,
+.paragrafo3 {
   color: #ffffff69;
   font-size: 1.6rem;
   line-height: 2.3684rem;
   letter-spacing: 0.0437rem;
 }
 
-.fundo-rosa {
+.fundo-rosa,
+.fundo-rosa3 {
   border-radius: 2.5rem;
   background-color: #ffc8d0;
-  /* background: url(<path-to-image>) #ffc8d0 50% / contain no-repeat; */
 }
 
 .cards2 {
@@ -209,6 +218,14 @@
   align-items: center;
   justify-content: center;
   gap: 0 10.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.cards3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 24.5rem;
   margin-bottom: 4.5rem;
 }
 
@@ -221,10 +238,53 @@
 .fundo-rosa2::before {
   content: "";
   width: 100%;
-  width: 324px;
-  height: 324px;
+  width: 32.4rem;
+  height: 32.4rem;
   background: url("../img/cofre-yellow.svg") no-repeat center center;
   position: absolute;
   top: 27rem;
   left: 21.5rem;
+}
+
+.card-yellow-pq {
+  content: "";
+  width: 100%;
+  width: 32.4rem;
+  height: 32.4rem;
+  background: url("../img/cofre-yellow.svg") no-repeat center center;
+  position: absolute;
+  top: -4rem;
+  left: -14rem;
+}
+
+section .bg-black {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 26rem 0;
+}
+
+.start-making {
+  text-align: center;
+}
+
+.start-making h1 {
+  color: #fff;
+  font-size: 14.6rem;
+  line-height: 14.5746rem;
+  letter-spacing: 0.9109rem;
+}
+
+.start-making img {
+  position: relative;
+  top: -8.5rem;
+  left: -1rem;
+  z-index: -1;
+}
+
+.start-making p {
+  color: #ffffff77;
+  font-size: 2.2rem;
+  line-height: 2.9149rem; 
+  letter-spacing: .0729rem;
 }
