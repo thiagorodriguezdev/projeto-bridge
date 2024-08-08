@@ -5,114 +5,114 @@
 .titulo-section {
   display: flex;
   justify-content: center;
-  margin-top: 7.4rem;
+  margin-top: 74px;
 }
 
 .section-texto {
   display: flex;
   justify-content: space-between;
-  padding: 7.2rem 4.4rem 8.9rem 4.4rem;
+  padding: 72px 44px 89px 44px;
 }
 
 .texto-section .texto1 {
   color: #fff;
-  font-size: 1.6rem;
-  line-height: 2.3684rem;
-  letter-spacing: 0.0437rem;
+  font-size: 16px;
+  line-height: 23.684px;
+  letter-spacing: 0.437px;
 }
 
 .texto-section .texto2 {
   color: #be838c;
-  font-size: 1.6rem;
-  line-height: 2.3684rem;
-  letter-spacing: 0.0437rem;
+  font-size: 16px;
+  line-height: 23.684px;
+  letter-spacing: 0.437px;
 }
 
 .section-texto .star {
   display: flex;
-  gap: 2rem;
+  gap: 20px;
 }
 
 .section-texto .star div {
-  border-radius: 0.9109rem;
-  border: 0.2rem solid #262626;
+  border-radius: 9.109px;
+  border: 2px solid #262626;
   background: #000;
-  width: 16.2rem;
-  height: 7.2rem;
+  width: 162px;
+  height: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   color: #fff;
-  font-size: 1.5rem;
-  line-height: 1.4575rem;
-  letter-spacing: 0.0437rem;
+  font-size: 15px;
+  line-height: 14.575px;
+  letter-spacing: 0.437px;
 }
 
 .logo-bridge {
-  width: 128rem;
-  height: 40.9rem;
+  width: 1280px;
+  height: 409px;
   background: #fff;
   display: flex;
   justify-content: center;
 }
 
 .logo-bridge .bridge {
-  max-width: 117.9rem;
+  max-width: 1179px;
 }
 
 .next-day {
   background: #000;
-  height: 100.5rem;
-  font-size: 4rem;
-  margin: 128px 0 178px 0;
+  height: 1005px;
+  font-size: 40px;
+  margin: 12.8rem 0 17.8rem 0;
   text-align: center;
-  word-spacing: 0.6rem;
+  word-spacing: 6px;
 }
 
 .next-day .linha-top {
-  width: 119.3rem;
-  height: 0.1rem;
+  width: 1193px;
+  height: 1px;
   background: #262626;
   margin: 0 auto;
   position: relative;
-  top: -8rem;
+  top: -80px;
 }
 
 .next-day .rosa {
   color: #be7f8f;
   font-family: Roboto;
-  font-size: 4rem;
-  line-height: 4.008rem;
-  letter-spacing: 0.1822rem;
+  font-size: 40px;
+  line-height: 40.08px;
+  letter-spacing: 1.822px;
 }
 
 .next-day .linha-bottom {
-  width: 119.3rem;
-  height: 0.1rem;
+  width: 1193px;
+  height: 1px;
   background: #262626;
   margin: 0 auto;
   position: relative;
-  top: 8rem;
+  top: 80px;
 }
 
 .next-day .linha-bottom::before {
   content: "";
   width: 100%;
-  max-width: 32.1rem;
-  height: 32.1rem;
+  max-width: 321px;
+  height: 321px;
   background: url("../img/dourado.png") no-repeat center center;
   position: absolute;
-  top: -15rem;
-  right: 6.5rem;
+  top: -150px;
+  right: 65px;
 }
 
 .next-day .titulo-grande {
   color: #fff;
-  font-size: 16.4rem;
-  line-height: 15.0301rem;
-  letter-spacing: 0.9109rem;
-  margin-top: 17.8rem;
+  font-size: 164px;
+  line-height: 150.301px;
+  letter-spacing: 9.109px;
+  margin-top: 178px;
   position: absolute;
   z-index: 2;
 }
@@ -125,42 +125,42 @@
 .next-day .titulo-grande .rosa-grande::before {
   content: "";
   width: 100%;
-  max-width: 32.1rem;
-  height: 32.1rem;
+  max-width: 321px;
+  height: 321px;
   background: url("../img/dourado.png") no-repeat center center;
   position: absolute;
-  top: 18rem;
-  left: -12rem;
+  top: 180px;
+  left: -120px;
   z-index: -1;
 }
 
 .texto-card {
-  margin-bottom: 17.5rem;
+  margin-bottom: 175px;
 }
 
 .texto-card p {
   color: #ffffff73;
   text-align: center;
-  font-size: 2.2rem;
-  line-height: 2.9149rem;
-  letter-spacing: 0.729px;
+  font-size: 22px;
+  line-height: 29.149px;
+  letter-spacing: 0.0729rem;
 }
 
 .texto-card h1 {
   color: #fff;
   text-align: center;
-  font-size: 14.6rem;
-  line-height: 14.5746rem;
-  letter-spacing: 0.9109rem;
-  margin-top: 20rem;
+  font-size: 146px;
+  line-height: 145.746px;
+  letter-spacing: 9.109px;
+  margin-top: 200px;
 }
 
 .cards {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0 22.5rem;
-  margin-bottom: 4.5rem;
+  gap: 0 225px;
+  margin-bottom: 45px;
 }
 
 .card-text,
@@ -171,45 +171,45 @@
 
 .card-text2 {
   position: relative;
-  left: -60px;
+  left: -6rem;
 }
 
 .card-text .step,
 .step2,
 .step3 {
   display: inline-block;
-  border-radius: 14.5746rem;
+  border-radius: 145.746px;
   background: #262626;
-  padding: 1.6rem 4rem;
+  padding: 16px 40px;
   text-align: center;
-  margin-bottom: 2.3rem;
-  font-size: 1.5rem;
-  line-height: 2.1862rem;
-  letter-spacing: 0.0437rem;
+  margin-bottom: 23px;
+  font-size: 15px;
+  line-height: 21.862px;
+  letter-spacing: 0.437px;
 }
 
 .card-text .titulo-card,
 .titulo-card2,
 .titulo-card3 {
   text-align: center;
-  font-size: 8.2rem;
-  line-height: 8.1982rem;
-  letter-spacing: 0.4555rem;
-  margin-bottom: 6rem;
+  font-size: 82px;
+  line-height: 81.982px;
+  letter-spacing: 4.555px;
+  margin-bottom: 60px;
 }
 
 .card-text .paragrafo,
 .paragrafo2,
 .paragrafo3 {
   color: #ffffff69;
-  font-size: 1.6rem;
-  line-height: 2.3684rem;
-  letter-spacing: 0.0437rem;
+  font-size: 16px;
+  line-height: 23.684px;
+  letter-spacing: 0.437px;
 }
 
 .fundo-rosa,
 .fundo-rosa3 {
-  border-radius: 2.5rem;
+  border-radius: 25px;
   background-color: #ffc8d0;
 }
 
@@ -217,51 +217,51 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0 10.5rem;
-  margin-bottom: 4.5rem;
+  gap: 0 105px;
+  margin-bottom: 45px;
 }
 
 .cards3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0 24.5rem;
-  margin-bottom: 4.5rem;
+  gap: 0 245px;
+  margin-bottom: 45px;
 }
 
 .fundo-rosa2 {
   background-color: #ffc8d0;
-  border-radius: 2.5rem;
+  border-radius: 25px;
   position: relative;
 }
 
 .fundo-rosa2::before {
   content: "";
   width: 100%;
-  width: 32.4rem;
-  height: 32.4rem;
+  width: 324px;
+  height: 324px;
   background: url("../img/cofre-yellow.svg") no-repeat center center;
   position: absolute;
-  top: 27rem;
-  left: 21.5rem;
+  top: 270px;
+  left: 215px;
 }
 
 .card-yellow-pq {
   content: "";
   width: 100%;
-  width: 32.4rem;
-  height: 32.4rem;
+  width: 324px;
+  height: 324px;
   background: url("../img/cofre-yellow.svg") no-repeat center center;
   position: absolute;
-  top: -4rem;
-  left: -14rem;
+  top: -40px;
+  left: -140px;
 }
 
 section .bg-black {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 26rem 0;
+  padding: 260px 0;
 }
 
 .start-making {
@@ -270,40 +270,40 @@ section .bg-black {
 
 .start-making h1 {
   color: #fff;
-  font-size: 14.6rem;
-  line-height: 14.5746rem;
-  letter-spacing: 0.9109rem;
+  font-size: 146px;
+  line-height: 145.746px;
+  letter-spacing: 9.109px;
 }
 
 .start-making img {
   position: relative;
-  top: -8.5rem;
-  left: -1rem;
+  top: -85px;
+  left: -10px;
   z-index: -1;
 }
 
 .start-making p {
   color: #ffffff77;
-  font-size: 2.2rem;
-  line-height: 2.9149rem;
-  letter-spacing: 0.0729rem;
+  font-size: 22px;
+  line-height: 29.149px;
+  letter-spacing: 0.729px;
 }
 
 .section-list {
   display: flex;
   justify-content: center;
-  margin-top: 233px;
-  gap: 18px;
+  margin-top: 23.3rem;
+  gap: 1.8rem;
 }
 
 section .card-list,
 .card-list2 {
-  width: 501px;
-  height: 1082px;
+  width: 50.1rem;
+  height: 123.2rem;
   background: #000;
-  border-radius: 2.5506rem;
-  border: 2px solid #44444498;
-  padding: 12.3rem 0 2rem 0;
+  border-radius: 25.506px;
+  border: 0.2rem solid #44444498;
+  padding: 123px 0 20px 0;
 }
 
 .card-list2 {
@@ -311,18 +311,102 @@ section .card-list,
   border: none;
 }
 
+.title-list {
+  border-bottom: 1px solid #262626;
+}
+
 .title-list h1 {
   color: #fff;
   text-align: center;
-  font-size: 8.2rem;
-  line-height: 8.1982rem;
-  letter-spacing: 0.4555rem;
+  font-size: 82px;
+  line-height: 81.982px;
+  letter-spacing: 4.555px;
+  margin-bottom: 23px;
 }
 
 .title-list p {
   color: #ffffff57;
   text-align: center;
-  font-size: 16px;
-  line-height: 2.3684rem; 
-  letter-spacing: .0437rem;
+  font-size: 1.6rem;
+  line-height: 23.684px;
+  letter-spacing: 0.437px;
+  margin-bottom: 35px;
+}
+
+.title-list h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 31px;
+  line-height: 49.189px;
+  margin-bottom: 2rem;
+}
+
+.card-list .purchase,
+.surveys {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 25px;
+  border-bottom: 1px solid #262626;
+}
+
+.card-list .purchase p {
+  color: #ffffff83;
+  font-size: 1.6rem;
+  line-height: 2.3684rem;
+  letter-spacing: 0.0437rem;
+}
+
+.card-list .purchase .coins {
+  color: #000;
+  border-radius: 21.8619rem;
+  background: #ffc8d0;
+  padding: 1.5rem 4rem;
+  font-size: 1.6rem;
+  line-height: 2.3684rem;
+  letter-spacing: 0.0437rem;
+}
+
+.card-list .surveys p {
+  color: #ffffff83;
+  font-size: 1.6rem;
+  line-height: 2.3684rem;
+  letter-spacing: 0.0437rem;
+}
+
+.card-list .surveys .certo {
+  border-radius: 999.9rem;
+  border: 0.2rem solid #ffc8d0;
+  background: #ffc8d0;
+  padding: 1.5rem 2rem;
+}
+
+.card-list .surveys .certo-black {
+  border-radius: 54.655px;
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  padding: 2.5rem;
+}
+
+.card-list .button2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 13.664px;
+  background: #ffc8d0;
+  padding: 25px 148px;
+  width: 453px;
+  margin: 25px auto;
+  cursor: pointer;
+}
+
+.card-list .button2 p {
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 1.9676rem;
+  letter-spacing: 0.0437rem;
+  padding-left: 10px;
+}
+
+.card-list .button2 img {
+  margin-left: 6px;
 }
