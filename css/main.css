@@ -296,19 +296,15 @@ section .bg-black {
   gap: 1.8rem;
 }
 
-section .card-list,
-.card-list2 {
+/* CARD */
+
+section .card-list {
   width: 50.1rem;
   height: 123.2rem;
   background: #000;
   border-radius: 25.506px;
   border: 0.2rem solid #44444498;
   padding: 123px 0 20px 0;
-}
-
-.card-list2 {
-  background: #fff;
-  border: none;
 }
 
 .title-list {
@@ -408,5 +404,111 @@ section .card-list,
 }
 
 .card-list .button2 img {
+  margin-left: 6px;
+}
+
+#card-list-white {
+  background: #fff;
+}
+
+.card-list2 {
+  width: 50.1rem;
+  height: 123.2rem;
+  background: #000;
+  border-radius: 25.506px;
+  padding: 123px 0 20px 0;
+}
+
+.title-list2 {
+  border-bottom: 1px solid #2626261a;
+}
+
+.title-list2 h1 {
+  color: #000;
+  text-align: center;
+  font-size: 82px;
+  line-height: 81.982px;
+  letter-spacing: 4.555px;
+  margin-bottom: 23px;
+}
+
+.title-list2 p {
+  color: #000;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 23.684px;
+  letter-spacing: 0.437px;
+  margin-bottom: 35px;
+}
+
+.title-list2 h2 {
+  color: #000;
+  text-align: center;
+  font-size: 31px;
+  line-height: 49.189px;
+  margin-bottom: 2rem;
+}
+
+.card-list2 .purchase2,
+.surveys2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 25px;
+  border-bottom: 1px solid #2626261a;
+}
+
+.card-list2 .purchase2 p {
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 2.3684rem;
+  letter-spacing: 0.0437rem;
+}
+
+.card-list2 .purchase2 .coins2 {
+  color: #000;
+  border-radius: 21.8619rem;
+  background: #ffc8d0;
+  padding: 1.5rem 4rem;
+  font-size: 1.6rem;
+  line-height: 2.3684rem;
+  letter-spacing: 0.0437rem;
+}
+
+.card-list2 .surveys2 p {
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 2.3684rem;
+  letter-spacing: 0.0437rem;
+}
+
+.card-list2 .surveys2 .certo2 {
+  border-radius: 999.9rem;
+  border: 0.2rem solid #ffc8d0;
+  background: #ffc8d0;
+  padding: 1.5rem 2rem;
+}
+
+.card-list2 .button3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 13.664px;
+  background: #ffc8d0;
+  padding: 25px 142px;
+  width: 453px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.card-list2 .button3 p {
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 1.9676rem;
+  letter-spacing: 0.0437rem;
+  padding-left: 10px;
+}
+
+.card-list2 .button3 img {
   margin-left: 6px;
 }
