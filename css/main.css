@@ -393,6 +393,11 @@ section .card-list {
   width: 453px;
   margin: 25px auto;
   cursor: pointer;
+  transition: bakcgroud 0.3s ease;
+}
+
+.card-list .button2:hover {
+  background: #f7d5de;
 }
 
 .card-list .button2 p {
@@ -511,6 +516,11 @@ section .card-list {
   width: 45.3rem;
   margin: 2rem auto;
   cursor: pointer;
+  transition: backgroud 0.3s ease;
+}
+
+.card-list2 .button3:hover {
+  background: #f7d5de;
 }
 
 .card-list2 .button3 p {
