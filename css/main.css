@@ -430,6 +430,18 @@ section .card-list {
   line-height: 81.982px;
   letter-spacing: 4.555px;
   margin-bottom: 23px;
+  position: relative;
+}
+
+.title-list2 h1::before {
+  content: "";
+  width: 100%;
+  width: 524px;
+  height: 324px;
+  background: url("../img/card-chip.svg") no-repeat center center;
+  position: absolute;
+  top: -335px;
+  left: -15px;
 }
 
 .title-list2 p {
